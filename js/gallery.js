@@ -93,7 +93,7 @@ galleryContainer.addEventListener("click", (event) => {
 
   const largeImageURL = event.target.dataset.source;
   const instance = basicLightbox.create(`
-    <img src="${largeImageURL}" alt="${event.target.alt}">
+    <img src="${largeImageURL}" alt="${event.target.alt}" style="width: 1112px; height: 640px;">
   `);
 
   instance.show();
